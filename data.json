@@ -1,0 +1,1312 @@
+  {
+    "cards": [
+      {
+        "id": "metabolismul-glucidic",
+        "theme": "Metabolism Glucidic & Diabet",
+        "icon": "🩸",
+        "color": "#e74c3c",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Care sunt criteriile de diagnostic ale prediabetului (conform ADA 2024)?",
+            "options": [
+              "Glicemia bazală 3.3-5.5 mmol/l",
+              "Glicemia bazală 5.6-6.9 mmol/l",
+              "Glicemia la 2h după 75g glucoză: 7.8-11.1 mmol/l și HbA1c 5.7-6.4%",
+              "Glicemia la 2h după 75g glucoză ≥11.1 mmol/l"
+            ],
+            "answer": 2,
+            "difficulty": "medium",
+            "hint": "Prediabetul este o stare intermediară, nu diabet complet.",
+            "explanation": "Prediabetul se diagnostichează prin: glicemie bazală 5.6-6.9 mmol/l, glicemie la 2h 7.8-11.1 mmol/l și/sau HbA1c 5.7-6.4% (ADA 2024)."
+          },
+          {
+            "id": "q2",
+            "question": "Ce dereglări ale echilibrului acido-bazic sunt caracteristice cetoacidozei diabetice?",
+            "options": [
+              "Creșterea pH-ului și creșterea HCO3-",
+              "Scăderea pH-ului, scăderea HCO3- și creșterea lacunei anionice",
+              "Creșterea pCO2 și alcaloză metabolică",
+              "Scăderea lacunei anionice și alcaloză respiratorie"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Cetoacidoza = acidoză. Lacuna anionică crește datorită corpilor cetonici.",
+            "explanation": "În cetoacidoza diabetică: pH scade (<7.3), HCO3- scade (<15 mEq/l), lacuna anionică crește (din cauza cetonelor acumulate)."
+          },
+          {
+            "id": "q3",
+            "question": "Care sunt factorii patogenici implicați în apariția diabetului zaharat tip 2?",
+            "options": [
+              "Distrucția autoimună a celulelor beta și deficit absolut de insulină",
+              "Deficit relativ de insulină, insulinorezistență primară și obezitate",
+              "Anticorpi anti-GAD și anti-celulă insulară",
+              "Deficit absolut de insulină și lipotoxicitate"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "DZ tip 2 nu implică distrucție autoimună.",
+            "explanation": "DZ tip 2: deficit relativ de insulină, insulinorezistență primară și obezitate (C, D, E din enunțul original)."
+          },
+          {
+            "id": "q4",
+            "question": "Ce manifestări sunt specifice hipoglicemiei (comei hipoglicemice)?",
+            "options": [
+              "Glicemia = 5.6 mmol/l, tegumente uscate, comă profundă liniștită",
+              "Glicemia < 3.9 mmol/l, tegumente umede, tahicardie, convulsii, comă agitată",
+              "Glicemia 30-50 mmol/l, osmolaritate ≥330 mOsm/l",
+              "Miros de acetonă, respirație Kussmaul, hipotensiune"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "Hipoglicemia activează sistemul simpatic: transpirații, tahicardie.",
+            "explanation": "Hipoglicemia: glicemie <3.9 mmol/l, tegumente umede (transpirații), tahicardie, HTA sistolică, convulsii, comă agitată."
+          },
+          {
+            "id": "q5",
+            "question": "Ce modificări sunt caracteristice sindromului hiperglicemic hiperosmolar?",
+            "options": [
+              "Glicemie 30-50 mmol/l, osmolaritate ≥330 mOsm/l, hipotensiune, tahicardie",
+              "Glicemie 20-30 mmol/l, cetonemie și cetonurie, miros de acetonă",
+              "Glicemie <3.9 mmol/l, tegumente umede, convulsii",
+              "Alcaloză metabolică și hiperfosfatemie"
+            ],
+            "answer": 0,
+            "difficulty": "hard",
+            "hint": "Sindromul hiperosmolar nu are cetone semnificative, dar are glicemie foarte înaltă.",
+            "explanation": "Sindromul hiperosmolar: glicemie 30-50 mmol/l, osmolaritate ≥330 mOsm/l, deshidratare severă, fără cetonemie semnificativă."
+          },
+          {
+            "id": "q6",
+            "question": "Care parametru biochimic este util pentru evaluarea compensării tratamentului la pacienții cu DZ?",
+            "options": [
+              "Glucozuria",
+              "Peptidul C",
+              "Hemoglobina glicată (HbA1c)",
+              "Albuminuria"
+            ],
+            "answer": 2,
+            "difficulty": "easy",
+            "hint": "Acest parametru reflectă glicemia medie din ultimele 2-3 luni.",
+            "explanation": "HbA1c (hemoglobina glicată) reflectă glicemia medie pe 2-3 luni și este gold standard pentru monitorizarea tratamentului diabetic."
+          },
+          {
+            "id": "q7",
+            "question": "Care este perechea de transportori care participă la absorbția glucozei din intestin?",
+            "options": [
+              "SGLT2 și GLUT2",
+              "SGLT1 și GLUT4",
+              "SGLT1 și GLUT2",
+              "SGLT2 și GLUT4"
+            ],
+            "answer": 2,
+            "difficulty": "hard",
+            "hint": "În intestin, absorbția este activă (SGLT) apoi facilitată (GLUT).",
+            "explanation": "Absorbția intestinală a glucozei: SGLT1 (cotransport activ Na+/glucoză) pe membrana apicală + GLUT2 (difuzie facilitată) pe membrana bazolaterală."
+          },
+          {
+            "id": "q8",
+            "question": "Care transportor de glucoză este dependent de insulină?",
+            "options": [
+              "SGLT1",
+              "GLUT1",
+              "GLUT2",
+              "GLUT4"
+            ],
+            "answer": 3,
+            "difficulty": "medium",
+            "hint": "Acest transportor se translocă la suprafața celulei musculare/adipoase în prezența insulinei.",
+            "explanation": "GLUT4 este insulinodependent, prezent în mușchi și țesut adipos. Insulina determină translocarea lui la suprafața celulei."
+          },
+          {
+            "id": "q9",
+            "question": "Care este triada tipică a cetoacidozei diabetice?",
+            "options": [
+              "Hipoglicemie, alcaloză metabolică și hiperfosfatemie",
+              "Hiperglicemie severă, cetoză și acidoză metabolică cu lacună anionică crescută",
+              "Hiperosmolaritate, deshidratare și hipernatremie",
+              "Glicemie 30-50 mmol/l, absența cetonelor și comă profundă"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "Cele trei componente ale DKA formează o triadă clasică.",
+            "explanation": "Triada cetoacidozei diabetice: (1) hiperglicemie severă, (2) cetonemie + cetonurie, (3) acidoză metabolică cu lacună anionică crescută."
+          },
+          {
+            "id": "q10",
+            "question": "Care condiție NU conduce la hipoglicemie?",
+            "options": [
+              "Hipofuncție adrenală",
+              "Supradozare de insulină",
+              "Glucagonom",
+              "Hipotiroidism sever"
+            ],
+            "answer": 2,
+            "difficulty": "hard",
+            "hint": "Glucagonom produce exces de glucagon, nu deficit.",
+            "explanation": "Glucagonomul produce hipersecreție de glucagon, ce determină HIPERGLICEMIE, nu hipoglicemie. Toate celelalte condiții pot cauza hipoglicemie."
+          },
+          {
+            "id": "q11",
+            "question": "Ce condiție NU conduce la hipoglicemie prin deficit ereditar?",
+            "options": [
+              "Glicogenozele",
+              "Galactozemia",
+              "Fenilcetonuria",
+              "Intoleranța la fructoză"
+            ],
+            "answer": 2,
+            "difficulty": "hard",
+            "hint": "Fenilcetonuria afectează metabolismul unui aminoacid, nu glucidic.",
+            "explanation": "Fenilcetonuria este o tulburare a metabolismului fenilalaninei și nu implică hipoglicemie. Glicogenozele, galactozemia și intoleranța la fructoză pot cauza hipoglicemie."
+          },
+          {
+            "id": "q12",
+            "question": "Ce modificare NU contribuie la instalarea cetonemiei în DZ tip 1?",
+            "options": [
+              "Exacerbarea lipolizei în țesutul adipos",
+              "Creșterea conținutului de acetil-CoA în ficat",
+              "Diminuarea concentrației de oxaloacetat",
+              "Producerea excesivă de NADPH în șuntul pentozofosfaților"
+            ],
+            "answer": 3,
+            "difficulty": "hard",
+            "hint": "NADPH-ul șuntului pentozofosfatic nu este implicat în cetogeneză.",
+            "explanation": "NADPH din șuntul pentozofosfaților nu contribuie la cetogeneză. Cetonele se formează prin lipoliză → acetil-CoA → corpi cetonici, favorizată de deficit de oxaloacetat."
+          },
+          {
+            "id": "q13",
+            "question": "Triada diabetică aterogenă cuprinde:",
+            "options": [
+              "Hipertrigliceridemia, creșterea HDL-colesterolului și LDL mari",
+              "Hipertrigliceridemia, diminuarea HDL-colesterolului și prezența LDL mici și dense",
+              "Hipocolesterolemie, creșterea apoA și scăderea trigliceridelor",
+              "Creșterea HDL și LDL, cu trigliceride normale"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "Triada aterogenă asociază factori de risc cardiovascular.",
+            "explanation": "Triada diabetică aterogenă: hipertrigliceridemia + scăderea HDL-colesterolului + LDL mici și dense (mai aterogene). Reprezintă un profil lipidic cu risc cardiovascular înalt."
+          },
+          {
+            "id": "q14",
+            "question": "Ce factor majorează cantitatea de calciu ionizat (liber)?",
+            "options": [
+              "Alcaloza",
+              "Valoarea joasă a pH-ului (acidoza)",
+              "Introducerea complexonilor",
+              "Hipoxia"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "Acidoza concurează cu Ca2+ pentru legarea la albumine.",
+            "explanation": "Acidoza (pH scăzut) crește Ca2+ ionizat: ionii de H+ concurează cu Ca2+ pentru legarea la albumine, eliberând calciul în formă ionizată liberă."
+          },
+          {
+            "id": "q15",
+            "question": "Ce transportor de glucoză participă la reabsorbția renală a glucozei?",
+            "options": [
+              "SGLT1 și GLUT2",
+              "SGLT2 și GLUT2",
+              "SGLT1 și GLUT4",
+              "SGLT2 și GLUT4"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "În rinichi, SGLT2 reabsoarbe ~90% din glucoza filtrată.",
+            "explanation": "Reabsorbția renală a glucozei: SGLT2 (tubul proximal, ~90% din glucoză) + GLUT2. Inhibitorii SGLT2 (gliflozinele) sunt medicamente antidiabetice."
+          }
+        ]
+      },
+      {
+        "id": "enzimologie",
+        "theme": "Enzimologie Clinică & Proteine",
+        "icon": "⚗️",
+        "color": "#9b59b6",
+        "questions": [
+          {
+            "id": "q16",
+            "question": "În ce afecțiuni este crescută activitatea LDH (lactat dehidrogenaza)?",
+            "options": [
+              "Colecistită acută și afecțiuni osoase",
+              "Miocarditele, ciroza ficatului și afecțiunile renale",
+              "Pancreatita acută și ulcerul peptic",
+              "Litiaza renală și tulburările endocrine"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "LDH este o enzimă ubiquitară, prezentă în multe organe.",
+            "explanation": "LDH crește în: miocarditele, ciroza hepatică, afecțiunile renale (și infarct miocardic). Este nespecifică, dar LDH-1 crește predominant în infarctul miocardic."
+          },
+          {
+            "id": "q17",
+            "question": "Care este funcția principală a haptoglobinei?",
+            "options": [
+              "Leagă ceruloplasmina",
+              "Transportă bilirubina",
+              "Leagă hemoglobina liberă",
+              "Inhibă proteazele serice"
+            ],
+            "answer": 2,
+            "difficulty": "easy",
+            "hint": "Haptos = a prinde; globin = hemoglobina.",
+            "explanation": "Haptoglobina leagă hemoglobina liberă eliberată prin hemoliză intravasculară, prevenind pierderea de fier și protejând rinichii. Scade în hemolize."
+          },
+          {
+            "id": "q18",
+            "question": "Care enzimă este marker specific al patologiei epiteliului tubular renal?",
+            "options": [
+              "Urokinaza",
+              "N-acetilglucozaminidaza (NAG)",
+              "Creatinkinaza (CK)",
+              "Renina"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Această enzimă lizozomală apare în urină la lezarea tubulilor renali.",
+            "explanation": "NAG (N-acetilglucozaminidaza) este o enzimă lizozomală specifică epiteliului tubular renal. Creșterea ei în urină indică lezare tubulară."
+          },
+          {
+            "id": "q19",
+            "question": "Creșterea ALAT > γ-GT > ASAT sugerează diagnosticul de:",
+            "options": [
+              "Pancreatită acută",
+              "Infarct miocardic",
+              "Patologie hepatocelulară",
+              "Colică renală"
+            ],
+            "answer": 2,
+            "difficulty": "medium",
+            "hint": "ALAT și γ-GT sunt markeri hepatici principali.",
+            "explanation": "Creșterea ALAT > γ-GT > ASAT este tipică pentru patologia hepatocelulară (hepatite). ALAT este cel mai specific marker hepatic."
+          },
+          {
+            "id": "q20",
+            "question": "Creșterea CK > ASAT > ALAT sugerează diagnosticul de:",
+            "options": [
+              "Hepatită virală acută",
+              "Pancreatită acută",
+              "Colică renală",
+              "Infarct miocardic"
+            ],
+            "answer": 3,
+            "difficulty": "medium",
+            "hint": "CK-MB este markerul clasic al infarctului.",
+            "explanation": "CK > ASAT > ALAT = infarct miocardic. CK (creatinkinaza) crește rapid după infarct (4-8h), iar ALAT este cel mai puțin crescut."
+          },
+          {
+            "id": "q21",
+            "question": "Ce enzimă indică afectarea mitocondriilor hepatice?",
+            "options": [
+              "Arginaza",
+              "Glutamatdehidrogenaza",
+              "Fosfataza alcalină",
+              "Sorbitoldehidrogenaza"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Această enzimă se găsește exclusiv în mitocondrii.",
+            "explanation": "Glutamatdehidrogenaza este o enzimă mitocondrială. Creșterea ei serică indică lezare mitocondrială hepatică severă (de ex. în toxicitate alcoolică sau ischemie)."
+          },
+          {
+            "id": "q22",
+            "question": "Care enzimă crește la 4-8 ore după infarctul miocardic acut?",
+            "options": [
+              "ASAT (aspartat aminotransferaza)",
+              "ALAT (alanin aminotransferaza)",
+              "LDH (lactat dehidrogenaza)",
+              "CK (creatin kinaza)"
+            ],
+            "answer": 3,
+            "difficulty": "medium",
+            "hint": "Aceasta este prima enzimă care crește în IMA.",
+            "explanation": "CK crește la 4-8h după IMA (peak la 24h, normalizare în 2-3 zile). LDH crește mai tardiv (8-14h, se menține 7-15 zile)."
+          },
+          {
+            "id": "q23",
+            "question": "Markerii plasmatici crescuți >24h după infarct miocardic acut includ:",
+            "options": [
+              "Mioglobina și CK-MB",
+              "Troponinele, LDH, ASAT și CK-MB",
+              "Doar troponinele",
+              "Mioglobina, LDH și troponinele"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Troponinele au cel mai lung fereastra diagnostică.",
+            "explanation": "Markeri crescuți >24h: troponinele (până la 14 zile!), LDH (7-15 zile), ASAT, CK-MB. Mioglobina se normalizează rapid (24h)."
+          },
+          {
+            "id": "q24",
+            "question": "Care proteină are cel mai scurt timp de înjumătățire și este marker al funcției acute de sinteză hepatică?",
+            "options": [
+              "Albumina",
+              "Fibrinogenul",
+              "Prealbumina (transtiretina)",
+              "IgG"
+            ],
+            "answer": 2,
+            "difficulty": "hard",
+            "hint": "T1/2 = 2 zile. Albumina are T1/2 = 20 zile.",
+            "explanation": "Prealbumina (transtiretina) are T1/2 de 2 zile, față de albumina (20 zile). Este cel mai sensibil marker pentru evaluarea rapidă a funcției de sinteză hepatică."
+          },
+          {
+            "id": "q25",
+            "question": "Care este rolul biologic principal al α1-antitripsinei?",
+            "options": [
+              "Transportul metalelor grele",
+              "Activarea sistemului imun",
+              "Inhibarea enzimelor proteolitice (proteazelor)",
+              "Coagularea sângelui"
+            ],
+            "answer": 2,
+            "difficulty": "easy",
+            "hint": "Denumirea sa descrie funcția: anti-tripsina.",
+            "explanation": "α1-antitripsina inhibă proteazele (elastaza, tripsina). Deficitul genetic determină emfizem pulmonar (neprotejat față de elastaza leucocitelor) și hepatită/ciroză."
+          },
+          {
+            "id": "q26",
+            "question": "Proteinele pozitive de fază acută includ:",
+            "options": [
+              "Albumina, transferina și prealbumina",
+              "Proteina C reactivă, fibrinogenul și haptoglobina",
+              "Toate globulinele și albuminele",
+              "Imunoglobulinele IgM și IgA"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "Acestea cresc în inflamație.",
+            "explanation": "Proteinele pozitive de fază acută (cresc în inflamație): PCR, fibrinogen, haptoglobina, α1-antitripsina, ceruloplasmina. Albumina și transferina sunt negative (scad)."
+          },
+          {
+            "id": "q27",
+            "question": "Profilul proteic din ciroza hepatică se caracterizează prin:",
+            "options": [
+              "Creșterea albuminelor și scăderea globulinelor",
+              "Creșterea β- și γ-globulinelor cu apariția 'domului cirotic'",
+              "Creșterea α1- și α2-globulinelor cu 'domul cirotic'",
+              "Scăderea tuturor fracțiunilor proteice"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Ciroza → scad albuminele (ficat boli), cresc imunoglobulinele.",
+            "explanation": "Ciroza hepatică: scad albuminele, cresc β- și γ-globulinele (fuzionează formând 'domul cirotic' la electroforeză), datorită hipergamaglobulinemiei policlonale."
+          },
+          {
+            "id": "q28",
+            "question": "Care patologie se asociază cu nivel scăzut de ceruloplasmină plasmatică?",
+            "options": [
+              "Infarctul miocardic acut",
+              "Pancreatita acută",
+              "Degenerescența hepato-lenticulară (Boala Wilson)",
+              "Ciroza hepatică"
+            ],
+            "answer": 2,
+            "difficulty": "medium",
+            "hint": "Wilson = cuprul nu se leagă de ceruloplasmină.",
+            "explanation": "Boala Wilson: deficit de ATP7B → cuprul nu se încorporează în ceruloplasmină → ceruloplasmina scade, cuprul se acumulează în ficat, creier, cornee (inelul Kayser-Fleischer)."
+          },
+          {
+            "id": "q29",
+            "question": "Un spike îngust și înalt în zona gamma la electroforeza proteinelor serice este sugestiv pentru:",
+            "options": [
+              "Inflamație acută",
+              "Sindrom nefrotic",
+              "Mielom multiplu",
+              "Colestază"
+            ],
+            "answer": 2,
+            "difficulty": "medium",
+            "hint": "O proteină monoclonală produce un peak îngust (M-spike).",
+            "explanation": "M-spike (band monoclonală îngustă în zona γ) = mielom multiplu. Reprezintă imunoglobulina monoclonală (paraproteina) produsă de plasmocitele maligne."
+          },
+          {
+            "id": "q30",
+            "question": "Ce markeri cresc în pancreatita acută?",
+            "options": [
+              "Troponinele, CK-MB și LDH",
+              "Amilaza, lipaza și tripsina",
+              "ALAT, ASAT și γ-GT",
+              "Albumina, fibrinogenul și PCR"
+            ],
+            "answer": 1,
+            "difficulty": "easy",
+            "hint": "Enzimele pancreatice se eliberează la lezarea pancreasului.",
+            "explanation": "Pancreatita acută: cresc amilaza (precoce, nespecifică), lipaza (mai specifică, se menține mai mult) și tripsina. Lipaza > amilaza este diagnostică."
+          }
+        ]
+      },
+      {
+        "id": "metabolismul-fosfo-calcic",
+        "theme": "Metabolism Fosfo-Calcic & Os",
+        "icon": "🦴",
+        "color": "#2ecc71",
+        "questions": [
+          {
+            "id": "q31",
+            "question": "Creșterea activității serice a cărei enzime indică intensificarea resorbției osoase?",
+            "options": [
+              "Fosfataza alcalină (FA)",
+              "Alaninaminotransferaza (ALAT)",
+              "Fosfataza acidă tartrat-rezistentă (TRAP)",
+              "Lactat dehidrogenaza (LDH)"
+            ],
+            "answer": 2,
+            "difficulty": "medium",
+            "hint": "Osteoclastele produc această enzimă în resorbție.",
+            "explanation": "TRAP (fosfataza acidă tartrat-rezistentă) este secretată de osteoclaste în timpul resorbției osoase. Este marker specific de resorbție osoasă."
+          },
+          {
+            "id": "q32",
+            "question": "Care sunt markerii biochimici ai resorbției osoase?",
+            "options": [
+              "Osteocalcina și propeptidele procolagenului de tip I",
+              "Colagenul tip I + peptide carboxiterminale, hidroxiprolina urinară și fosfataza acidă tartrat-rezistentă",
+              "Fosfataza alcalină osoasă și osteocalcina",
+              "Propeptida aminoterminală și carboxiterminală a procolagenului"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Resorbția degradează colagenul → produse de degradare sunt markeri.",
+            "explanation": "Markeri de resorbție osoasă: TRAP, colagen cross-links (piridinolina, dezoxipiridinolina), telopeptide C și N-terminale ale colagenului I, hidroxiprolina și hidroxilizina urinare."
+          },
+          {
+            "id": "q33",
+            "question": "Calcitriolul (1,25(OH)2D3) – care afirmații sunt corecte?",
+            "options": [
+              "Este metabolitul activ al vitaminei A și stimulează osteogeneza",
+              "Stimulează absorbția Ca și fosfat în intestin; scade în afecțiunile renale",
+              "Inhibă absorbția calciului și crește în insuficiența renală",
+              "Nu are efect permisiv asupra PTH și crește excreția renală de Ca"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "Calcitriolul = vitamina D activă, formată în rinichi.",
+            "explanation": "Calcitriolul: metabolit activ al vitaminei D3, stimulează absorbția intestinală de Ca și fosfat, scade în afecțiunile renale (rinichiul îl produce), are efect permisiv asupra PTH."
+          },
+          {
+            "id": "q34",
+            "question": "Ce factor majorează cantitatea de calciu ionizat?",
+            "options": [
+              "Alcaloza și hipoxia",
+              "Acidoza (pH scăzut)",
+              "Introducerea complexonilor",
+              "Avitaminoza D"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "Ionii H+ competă cu Ca2+ pe albumine.",
+            "explanation": "Acidoza crește Ca2+ ionizat: H+ concurează cu Ca2+ pentru situsurile de legare pe albumine, eliberând calciul ionizat. Alcaloza are efect invers (hipocalcemie simptomatică)."
+          },
+          {
+            "id": "q35",
+            "question": "Modificările de laborator în osteoporoză sunt:",
+            "options": [
+              "Hipercalcemie și hiperfosfatemie",
+              "Hipocalcemie și hipofosfatemie",
+              "Hiperfosfatemie și activitate FA crescută",
+              "Ca și fosfat seric în limite normale"
+            ],
+            "answer": 3,
+            "difficulty": "medium",
+            "hint": "Osteoporoza = scade masa osoasă, nu concentrația serică.",
+            "explanation": "În osteoporoză, calcemia și fosfatemia serice sunt NORMALE. Boala afectează microarhitectura și densitatea osoasă, nu homeostazia Ca/P serică."
+          },
+          {
+            "id": "q36",
+            "question": "Organele-țintă pentru parathormon (PTH) sunt:",
+            "options": [
+              "Suprarenalele, ficatul și pancreasul",
+              "Oasele, rinichii și intestinul",
+              "Ficatul, splina și intestinul",
+              "Mușchii, rinichii și creierul"
+            ],
+            "answer": 1,
+            "difficulty": "easy",
+            "hint": "PTH reglează calciul în trei organe principale.",
+            "explanation": "PTH acționează pe: os (mobilizează Ca), rinichi (reabsorbie Ca, elimină PO4, activează vitamina D) și intestin (indirect, prin calcitriol, absorbție Ca)."
+          },
+          {
+            "id": "q37",
+            "question": "Un bărbat de 53 ani: Ca 2.96 mmol/l (N: 2.25-2.75), fosfat 0.62 mmol/l (N: 0.80-1.15), PTH 157 ng/L (N: 20-65). Diagnosticul prezumtiv este:",
+            "options": [
+              "Osteoporoză",
+              "Osteomalacie",
+              "Boala Paget",
+              "Hiperparatiroidism primar"
+            ],
+            "answer": 3,
+            "difficulty": "hard",
+            "hint": "Ca crescut + PO4 scăzut + PTH crescut = excces PTH.",
+            "explanation": "Hipercalcemie + hipofosfatemie + PTH crescut = hiperparatiroidism primar. PTH mobilizează Ca din oase, crește reabsorbția renală de Ca și elimină fosfatul."
+          },
+          {
+            "id": "q38",
+            "question": "Markerii biochimici ai formării osoase includ:",
+            "options": [
+              "TRAP și piridinolina urinară",
+              "Telopeptidele N și C-terminale ale colagenului I",
+              "Osteocalcina și propeptidele procolagenului de tip I",
+              "Hidroxiprolina și hidroxilizina urinare"
+            ],
+            "answer": 2,
+            "difficulty": "medium",
+            "hint": "Formarea osoasă → osteoblaste sintetizează colagen și osteocalcina.",
+            "explanation": "Markeri de formare osoasă: osteocalcina (BGP), propeptida aminoterminală (PINP) și carboxiterminală (PICP) ale procolagenului I, FA osoasă. Indicatori ai activității osteoblastice."
+          },
+          {
+            "id": "q39",
+            "question": "Dereglările care se atestă în hiperparatiroidism primar sunt:",
+            "options": [
+              "Hipocalcemie și hiperfosfatemie",
+              "Hipercalcemie și hipofosfatemie",
+              "Hipocalcemie și hipofosfatemie",
+              "Ca și PO4 în limite normale"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "PTH în exces: mobilizează Ca, elimină PO4 renal.",
+            "explanation": "Hiperparatiroidism primar: PTH în exces → hipercalcemie (mobilizare din os + reabsorbție renală) + hipofosfatemie (eliminare renală de PO4 crescută)."
+          },
+          {
+            "id": "q40",
+            "question": "Succesiunea corectă a etapelor remodelării osoase este:",
+            "options": [
+              "Activare, resorbție, formare matricei, mineralizare, repaus",
+              "Resorbție, formare, mineralizare, repaus, activare",
+              "Repaus, activare, resorbție, formarea matricei organice, mineralizare",
+              "Mineralizare, repaus, activare, resorbție, formare"
+            ],
+            "answer": 2,
+            "difficulty": "hard",
+            "hint": "Procesul începe cu repaus, se activează, osteoclastele resoarb, osteoblastele formează.",
+            "explanation": "Remodelarea osoasă (ciclu DARM): Repaus → Activare → Resorbție (osteoclaste) → Formare matricei organice (osteoblaste) → Mineralizare."
+          },
+          {
+            "id": "q41",
+            "question": "Factori de risc pentru osteoporoză includ:",
+            "options": [
+              "Stilul de viață activ, dieta bogată în calciu și menopauza tardivă",
+              "Dieta vegană, dietele hiperproteice și menopauza precoce",
+              "Exercițiile fizice regulate și paritatea crescută",
+              "Aportul de vitamina D și calciu, IMC crescut"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "Menopauza precoce → estrogeni puțini → pierdere de os.",
+            "explanation": "Factori de risc osteoporoză: dieta vegană (Ca insuficient), diete hiperproteice (acidoze ușoare → Ca mobilizat din os), menopauza precoce (deficit estrogenic), fumat, alcool, sedentarism."
+          },
+          {
+            "id": "q42",
+            "question": "Modificările de laborator specifice osteomalaciei sunt:",
+            "options": [
+              "Ca, PO4 crescute și FA osoasă crescută",
+              "Ca, PO4 scăzute și FA osoasă crescută",
+              "Ca, PO4 normale și FA osoasă normală",
+              "Ca crescut, PO4 scăzut, FA normală"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Osteomalacie = os demineralizat (deficit vitamina D).",
+            "explanation": "Osteomalacie: scad Ca și PO4 (deficit vitamina D → absorbție intestinală redusă), crește FA osoasă (osteoblaste încearcă să mineralizeze fără succes)."
+          },
+          {
+            "id": "q43",
+            "question": "Efectele calcitoninei includ:",
+            "options": [
+              "Hipercalcemie și hiperfosfatemie",
+              "Hipocalcemie și hipofosfatemie",
+              "Hipercalcemie și hipofosfaturie",
+              "Hipocalcemie și hiperfosfaturie"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "Calcitonina este antagonistul PTH.",
+            "explanation": "Calcitonina (produsă de celulele C tiroidiene): inhibă osteoclastele → hipocalcemie + hipofosfatemie. Este antagonistul PTH."
+          },
+          {
+            "id": "q44",
+            "question": "Aminoacidul care determină capacitatea de fixare a calciului în proteinele fixatoare de Ca este:",
+            "options": [
+              "Metionina",
+              "Tirozina",
+              "Serina",
+              "γ-carboxiglutamatul"
+            ],
+            "answer": 3,
+            "difficulty": "hard",
+            "hint": "Acest aminoacid rezultă prin carboxilare vitamina K-dependentă.",
+            "explanation": "γ-carboxiglutamatul (Gla) este responsabil de legarea Ca2+ în proteinele dependente de vitamina K (factorii de coagulare II, VII, IX, X, proteina C, S, osteocalcina)."
+          },
+          {
+            "id": "q45",
+            "question": "Stările patologice care pot genera osteoporoză secundară includ:",
+            "options": [
+              "Boala Addison, hipoparatiroidismul și hipotiroidismul",
+              "Sindromul Cushing, hiperparatiroidismul și hipertiroidismul",
+              "Diabetul insipid, hipoparatiroidismul și hipotiroidismul",
+              "Boala Addison, diabetul zaharat tip 2 și hipotiroidismul"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Excesul de cortizol, PTH și hormoni tiroidieni → pierdere osoasă.",
+            "explanation": "Osteoporoze secundare: sindrom Cushing (cortizolemie → inhibă osteoblastele), hiperparatiroidism (mobilizare Ca din os), hipertiroidism (accelerare remodelare → rezorbție > formare)."
+          }
+        ]
+      },
+      {
+        "id": "hemostaza",
+        "theme": "Hemostază & Coagulare",
+        "icon": "🩹",
+        "color": "#e67e22",
+        "questions": [
+          {
+            "id": "q46",
+            "question": "Ce preparat inhibă legarea ADP-ului de receptorul său plachetar?",
+            "options": [
+              "Ibuprofenul",
+              "Clopidogrelul",
+              "Oxitocina",
+              "Atorvastatina"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "Clopidogrelul este un antiagregant plachetar frecvent utilizat.",
+            "explanation": "Clopidogrelul inhibă ireversibil receptorul P2Y12 pentru ADP de pe trombocite, reducând agregarea plachetară. Utilizat în sindroame coronariene acute și AVC."
+          },
+          {
+            "id": "q47",
+            "question": "Ce test de laborator este util pentru monitorizarea terapiei cu heparină?",
+            "options": [
+              "Timpul de protrombină (PT)",
+              "Protrombina după Quick",
+              "INR (International Normalized Ratio)",
+              "Timpul de tromboplastină parțial activat (TTPA)"
+            ],
+            "answer": 3,
+            "difficulty": "easy",
+            "hint": "Heparina acționează pe calea intrinsecă.",
+            "explanation": "TTPA monitorizează heparina nefracționată (acționează pe calea intrinsecă: factori XII, XI, IX, VIII). PT/INR monitorizează anticoagulantele orale (warfarină)."
+          },
+          {
+            "id": "q48",
+            "question": "Activatorii fibrinolizei sunt:",
+            "options": [
+              "Fosfolipidele plachetare și D-dimerii",
+              "Inhibitorul activatorului plasminogenului (PAI-1) și α2-antiplasmina",
+              "Streptokinaza și urokinaza",
+              "Fibrinogenul și trombomodulina"
+            ],
+            "answer": 2,
+            "difficulty": "medium",
+            "hint": "Activatorii = substanțe care activează plasminogenul.",
+            "explanation": "Activatori ai fibrinolizei: streptokinaza, urokinaza, t-PA (activatorul tisular al plasminogenului). PAI-1 și α2-antiplasmina sunt INHIBITORI ai fibrinolizei."
+          },
+          {
+            "id": "q49",
+            "question": "Proteina C (anticoagulant) – ce afirmații sunt corecte?",
+            "options": [
+              "Se activează de proteina C reactivă și inhibă fibrinoliza",
+              "Se activează de trombina legată de trombomodulină; necesită proteina S ca cofactor",
+              "Activează factorii Va și VIIIa",
+              "Se activează de Factorul von Willebrand și inhibă trombocitele"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Proteina C activată (APC) + proteina S = sistem anticoagulant major.",
+            "explanation": "Proteina C: se activează de complexul trombina-trombomodulina, necesită proteina S ca cofactor. APC inactivează factorii Va și VIIIa, reducând coagularea."
+          },
+          {
+            "id": "q50",
+            "question": "Celulele implicate în hemostază sunt:",
+            "options": [
+              "Astrocitele, hepatocitele și celulele beta-pancreatice",
+              "Hepatocitele, endoteliocitele și trombocitele",
+              "Osteoclastele, trombocitele și macrofagii",
+              "Celulele beta-pancreatice, limfocitele și eritrocitele"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "Ficatul sintetizează factorii, endoteliul și trombocitele sunt la fața locului.",
+            "explanation": "Hemostaza implică: hepatocite (sintetizează factori de coagulare, fibrinogen), endoteliocite (produc substanțe pro/antitrombotice, subendoteliu) și trombocite (plug primar)."
+          },
+          {
+            "id": "q51",
+            "question": "Ce factor de coagulare este deficitar când TTPA este alungit dar PT este normal?",
+            "options": [
+              "Factorul VII (proconvertina)",
+              "Factorul III (tromboplastina tisulară)",
+              "Factorul XII (factorul Hageman)",
+              "Factorul X (Stuart-Prower)"
+            ],
+            "answer": 2,
+            "difficulty": "hard",
+            "hint": "TTPA = cale intrinsecă. PT = cale extrinsecă.",
+            "explanation": "TTPA alungit + PT normal = defect în calea intrinsecă. Factorul XII (Hageman) este în calea intrinsecă. Factorul VII (cale extrinsecă) ar alungi doar PT."
+          },
+          {
+            "id": "q52",
+            "question": "Factorii de coagulare care necesită vitamina K pentru sinteză sunt:",
+            "options": [
+              "Factorul I (fibrinogenul), II, V, VIII",
+              "Factorii II (protrombina), VII, IX, X și Proteina C și S",
+              "Factorii VIII, IX, XI, XII",
+              "Factorii V, VIII, XIII și vWF"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "PCSIX: Protrombina, C, S, II, IX, X, VII - toți vitamina K-dependenți.",
+            "explanation": "Vitamina K-dependenți: II (protrombina), VII, IX, X + Proteina C și S. Vitamina K carboxilează reziduurile Glu → Gla, necesare pentru legarea Ca2+ și activarea factorilor."
+          },
+          {
+            "id": "q53",
+            "question": "Rolurile trombinei includ:",
+            "options": [
+              "Conversia fibrinogenului → fibrină; activarea factorilor V, VIII, XI și F.XIII",
+              "Inhibarea coagulării și activarea fibrinolizei",
+              "Inhibarea factorilor Va și VIIIa prin proteina C",
+              "Activarea PAI-1 și inhibarea t-PA"
+            ],
+            "answer": 0,
+            "difficulty": "hard",
+            "hint": "Trombina este enzima centrală a coagulării.",
+            "explanation": "Trombina: convertește fibrinogenul în fibrină solubilă, activează factorii V, VIII, IX, XI, XIII (stabilizare fibrină). În complex cu trombomodulina activează Proteina C (anticoagulant)."
+          },
+          {
+            "id": "q54",
+            "question": "Factorul von Willebrand (vWF) – afirmații corecte:",
+            "options": [
+              "Este sintetizat de hepatocite și participă la fibrinoliză",
+              "Este sintetizat de megacariocite și endoteliocite; participă la adeziunea trombocitară; transportă factorul VIII",
+              "Este factor antitrombotic și inhibă coagularea",
+              "Activează plasminogenul și accelerează liza cheagului"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "vWF = lipici pentru trombocite + transportator al F.VIII.",
+            "explanation": "vWF: sintetizat de megacariocite și celule endoteliale. Funcții: adeziunea și agregarea trombocitelor (la subendoteliu), transportul și protejarea factorului VIII de coagulare."
+          },
+          {
+            "id": "q55",
+            "question": "Factorii antitrombotici ai endoteliilor vasculare sunt:",
+            "options": [
+              "Factorul von Willebrand și PAI-1",
+              "Prostaciclina, antitrombina III și t-PA",
+              "Fibrinogenul și trombina",
+              "Factorul tisular și tromboxanul A2"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "Endoteliul sănătos promovează anticoagularea.",
+            "explanation": "Factori antitrombotici endoteliali: prostaciclina (PGI2 – vasodilatator, inhibitor plachetar), antitrombina III (inhibă trombina/F.Xa), t-PA (activează fibrinoliza). vWF și PAI-1 sunt protrombotici."
+          },
+          {
+            "id": "q56",
+            "question": "D-dimerii – afirmații corecte:",
+            "options": [
+              "Rezultă din degradarea fibrinogenului și sunt specifici hemofiliei",
+              "Reprezintă produși de degradare ai fibrinei stabilizate; indică activarea coagulării + fibrinolizei; cresc în TEV",
+              "Nu cresc în coagularea intravasculară diseminată (CID)",
+              "Sunt markeri de sinteză hepatică și scad în hepatite"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "D-dimerii = produse de degradare ale fibrinei RETICULATE.",
+            "explanation": "D-dimerii: produse de degradare ale fibrinei stabilizate (reticulate de F.XIII), marker al coagulării + fibrinolizei simultane. Cresc în: TEV (TVP/EP), CID, inflamații. Valoare predictivă negativă înaltă."
+          },
+          {
+            "id": "q57",
+            "question": "INR (International Normalized Ratio) – afirmații corecte:",
+            "options": [
+              "Evaluează calea intrinsecă și este dependent de factorii VIII și IX",
+              "Derivă din PT, evaluează calea extrinsecă și este util pentru monitorizarea warfarinei",
+              "Este independent de factorul VII și nu se modifică în tratamentul cu warfarină",
+              "Monitorizează terapia cu heparină nefracționată"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "INR standardizează Timpul de Protrombină.",
+            "explanation": "INR = PT pacient / PT normal, la puterea ISI. Evaluează calea extrinsecă (F.VII, X, V, protrombina, fibrinogen). Standard pentru monitorizarea anticoagulantelor orale (warfarină, acenocumarol)."
+          },
+          {
+            "id": "q58",
+            "question": "Aspirina (Acidul acetilsalicilic) acționează prin:",
+            "options": [
+              "Inhibarea reversibilă a ciclooxigenazei-2 (COX-2)",
+              "Blocarea receptorului P2Y12 pentru ADP",
+              "Inhibarea ireversibilă a ciclooxigenazei-1 (COX-1)",
+              "Antagonizarea receptorilor pentru glicoproteina IIb/IIIa"
+            ],
+            "answer": 2,
+            "difficulty": "easy",
+            "hint": "Aspirina acetilează ireversibil COX, iar trombocitele nu pot sintetiza COX nouă.",
+            "explanation": "Aspirina inhibă ireversibil COX-1 → scade sinteza tromboxanului A2 (TXA2) → reduce agregarea plachetară. Trombocitele nu pot sintetiza proteine noi, deci efectul durează toată viața plachetei (7-10 zile)."
+          },
+          {
+            "id": "q59",
+            "question": "Inhibitorii fibrinolizei sunt:",
+            "options": [
+              "Streptokinaza și t-PA",
+              "α2-antiplasmina și PAI-1",
+              "Plasmina și urokinaza",
+              "Proteina C și antitrombina III"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "Inhibitorii fibrinolizei blochează plasmina sau activatorii ei.",
+            "explanation": "Inhibitori ai fibrinolizei: α2-antiplasmina (inhibă plasmina direct), PAI-1 (inhibă t-PA și u-PA). Terapeutic: acid tranexamic, acid ε-aminocaproic (analogii lizinei blochează plasmina)."
+          },
+          {
+            "id": "q60",
+            "question": "Boala von Willebrand – afirmații corecte:",
+            "options": [
+              "Este asociată cu hemartroze frecvente și niveluri crescute de F.VIII",
+              "Deficit/disfuncție vWF; adeziune trombocitară afectată; timp de sângerare prelungit; posibil F.VIII scăzut",
+              "Determină trombofilie și crește riscul de TEV",
+              "Nu afectează timpul de sângerare și este tratată cu warfarină"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "vWF transportă și protejează F.VIII de degradare.",
+            "explanation": "Boala von Willebrand: deficit/disfuncție vWF → adeziune trombocitară deficitară + timp de sângerare prelungit. vWF protejează F.VIII → în formele severe, F.VIII poate scădea (ca în hemofilia A)."
+          }
+        ]
+      },
+      {
+        "id": "biochimie-generala",
+        "theme": "Biochimie Generală & Metabolisme",
+        "icon": "🔬",
+        "color": "#3498db",
+        "questions": [
+          {
+            "id": "q61",
+            "question": "Care sunt funcțiile biologice ale fosfatului?",
+            "options": [
+              "Formarea compușilor macroergici, constituent al fosfolipidelor și reglarea echilibrului acido-bazic",
+              "Menținerea presiunii oncotice și participarea la coagularea sângelui",
+              "Transportul oxigenului și reglarea glicemiei",
+              "Sinteza hemoglobinei și transportul lipidelor"
+            ],
+            "answer": 0,
+            "difficulty": "medium",
+            "hint": "Fosfatul este în ATP, membrane și tampon.",
+            "explanation": "Funcțiile fosfatului: formarea ATP și altor compuși macroergici, component al fosfolipidelor membranare, participă la echilibrul acido-bazic (sistem tampon fosfat)."
+          },
+          {
+            "id": "q62",
+            "question": "Hepcidina – afirmații corecte:",
+            "options": [
+              "Crește absorbția fierului și eliberarea din macrofage prin activarea feroportinei",
+              "Modulator negativ al fierului; scade absorbția și eliberarea Fe din macrofage prin inactivarea feroportinei; sinteza inhibată în hipoxii",
+              "Este produsă de rinichi și crește în anemii hemolitice",
+              "Transportă fierul în plasmă și depozitează fierul în ficat"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Hepcidina = hormona fierului. Inactivează feroportina (exportorul de fier).",
+            "explanation": "Hepcidina: peptid produs hepatic, regulator principal al homeostaziei fierului. Inactivează feroportina → scade absorbția intestinală și eliberarea din macrofage. Inhibată de hipoxie, anemie, sarcină."
+          },
+          {
+            "id": "q63",
+            "question": "α-amilaza – afirmații corecte:",
+            "options": [
+              "Izoformele sunt: salivară, pancreatică și osoasă; crește în pancreatită",
+              "Izoformele sunt salivară și hepatică; se elimină cu bila",
+              "Crește în parotită și pancreatită acută; izoformele majore sunt salivară și pancreatică",
+              "Este specifică ficatului și crește în hepatite virale"
+            ],
+            "answer": 2,
+            "difficulty": "medium",
+            "hint": "Amilaza are două surse principale: glanda salivară și pancreasul.",
+            "explanation": "α-amilaza: izoformele majore sunt salivară (P-amy) și pancreatică (S-amy). Crește în: parotită (izof. salivară) și pancreatită acută/colecistită acută (izof. pancreatică). Se elimină renal."
+          },
+          {
+            "id": "q64",
+            "question": "Componentele legate și transportate de albumine includ:",
+            "options": [
+              "Ureea, acidul uric și glucoza",
+              "Acizii grași liberi, bilirubina indirectă și ionii de Ca2+",
+              "Imunoglobulinele, fibrinogenul și trombina",
+              "Factorul von Willebrand și antitrombina III"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "Albuminele transportă substanțe hidrofobe și unii ioni.",
+            "explanation": "Albumina transportă: acizi grași liberi (AGL), bilirubina indirectă (neconjugată), Ca2+ (50% din Ca total), hormoni tiroidieni, medicamente (warfarină, aspirină). Este negată de faza acută (scade)."
+          },
+          {
+            "id": "q65",
+            "question": "Ceruloplasmina – afirmații corecte:",
+            "options": [
+              "Este proteină de transport al fierului; crește în boala Wilson; nu are activitate enzimatică",
+              "Este metaloglicoproteină cu cupru; transportă 70% din cupruleric; are activitate feroxidazică; crește în colestază",
+              "Este produsă de rinichi; transportă exclusiv cuprul; scade în inflamații",
+              "Inhibă peroxidarea lipidică direct; scade în sarcină și sarcoidoză"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Cupru + feroxidaza = ceruloplasmina.",
+            "explanation": "Ceruloplasmina: α2-globulină, transportă 70% din Cu seric. Funcții: oxidează Fe2+ → Fe3+ (feroxidaza), antioxidant. Crește în: inflamații, sarcină, colestază. Scade în: boala Wilson, malnutriție, insuf. hepatică."
+          },
+          {
+            "id": "q66",
+            "question": "LDH (lactat dehidrogenaza) – afirmații corecte:",
+            "options": [
+              "Este o hidrolază; crește specific în infarctul miocardic la 2h; se normalizează în 24h",
+              "Este marker al necrozei hepatocitelor; în IM creșterile survin la 8-14h și se mențin 7-15 zile",
+              "Este dimer specific de tip B; nu crește în hepatitele virale",
+              "Este o kinaza mitocondrială; izoformele sunt LDH-1 și LDH-5 specifice creierului"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "LDH este un oxidoreductor, nu hidrolază; are 5 izoenzime.",
+            "explanation": "LDH: tetramer din subunități H (heart) și M (muscle); 5 izoenzime. LDH-1 (H4) = inimă/eritrocite; LDH-5 (M4) = ficat/mușchi. În IMA: crește la 8-14h, peak 48-72h, se menține 7-15 zile."
+          },
+          {
+            "id": "q67",
+            "question": "α2-macroglobulina – afirmații corecte:",
+            "options": [
+              "Este cea mai mică proteină plasmatică; scade în inflamații",
+              "Este cea mai mare proteină non-imunoglobulinică; inhibitor natural al proteazelor; crește în sindrom nefrotic",
+              "Este proteină pozitivă de fază acută; crește în hepatite acute",
+              "Transportă cuprul și are activitate antimicrobiană"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Macro = mare. Rămâne în vas când albumina fuge în nefrotice.",
+            "explanation": "α2-macroglobulina: cea mai mare proteină plasmatică non-Ig (~720 kDa), inhibitor de proteaze. Crește în sindromul nefrotic (prea mare pentru a fi pierdută urinar, compensează). Scade în insuf. hepatică."
+          },
+          {
+            "id": "q68",
+            "question": "Rolurile proteinei C reactive includ:",
+            "options": [
+              "Sinteza hemoglobinei și transportul hormonilor steroizi",
+              "Opsonizarea microorganismelor, activarea complementului și eliminarea detritusurilor celulare",
+              "Inhibarea trombocitelor și activarea fibrinolizei",
+              "Transportul fierului și reglarea absorbției intestinale"
+            ],
+            "answer": 1,
+            "difficulty": "easy",
+            "hint": "PCR este un opsonin și activator al imunității înnăscute.",
+            "explanation": "PCR: produsă de ficat ca răspuns la IL-6 (în inflamație). Funcții: opsonizare (se leagă de fosfolipidele bacteriene), activarea complementului (cale clasică), eliminarea celulelor moarte/necrotice."
+          },
+          {
+            "id": "q69",
+            "question": "Cauza hiperproteinemiei relative este:",
+            "options": [
+              "Aportul crescut de proteine alimentare",
+              "Mielomul multiplu",
+              "Diareea (deshidratare)",
+              "Infecțiile cronice"
+            ],
+            "answer": 2,
+            "difficulty": "medium",
+            "hint": "Relativă = scade apa, nu cresc proteinele.",
+            "explanation": "Hiperproteinemia relativă apare prin deshidratare (pierdere de apă → proteinelee se concentrează). Diareea = pierdere de lichide → deshidratare → hiperproteinemie relativă (falsă)."
+          },
+          {
+            "id": "q70",
+            "question": "Izoenzimele creatin kinazei specifice pentru miocard și creier sunt:",
+            "options": [
+              "CK-BB și CK-MM",
+              "CK-MM și CK-MB",
+              "CK-MB și CK-BB",
+              "Doar CK-BB"
+            ],
+            "answer": 2,
+            "difficulty": "hard",
+            "hint": "M=mușchi, B=brain(creier). Miocardul are preponderent MB.",
+            "explanation": "CK-BB = creier (SNC). CK-MB = miocard (specific pentru infarct miocardic). CK-MM = mușchi scheletic (predominant, >95% din CK totală la omul sănătos)."
+          },
+          {
+            "id": "q71",
+            "question": "Proprietățile chimice ale proteinelor care stau la baza separării prin electroforeză sunt:",
+            "options": [
+              "Densitatea și culoarea",
+              "Sarcina electrică și dimensiunea moleculară",
+              "Structura genetică și solubilitatea",
+              "Temperatura de denaturare și greutatea moleculară"
+            ],
+            "answer": 1,
+            "difficulty": "easy",
+            "hint": "Electro = curent electric → sarcina contează.",
+            "explanation": "Electroforeza separă proteinele prin: sarcina electrică (la pH dat, proteinele au sarcini nete diferite) și dimensiunea moleculară (mobilitate inversă cu dimensiunea). La pH 8.6, albuminele migrează cel mai repede."
+          },
+          {
+            "id": "q72",
+            "question": "Scăderea ceruloplasminei apare în:",
+            "options": [
+              "Colestată, sarcină și inflamații acute",
+              "Boala Wilson, malnutriție, insuficiența hepatică și enteropatii",
+              "Ciroza hepatică, infarctul miocardic și pancreatita acută",
+              "Infecțiile cronice, artrita reumatoidă și neoplazii"
+            ],
+            "answer": 1,
+            "difficulty": "medium",
+            "hint": "Ceruloplasmina scade când ficatul nu o produce sau când cuprul nu se leagă.",
+            "explanation": "Ceruloplasmina scade în: boala Wilson (deficit genetic de incorporare a Cu), malnutriție (deficit de cupru/precursori), insuficiența hepatică (ficatul o sintetizează), enteropatii (malabsorbție Cu)."
+          },
+          {
+            "id": "q73",
+            "question": "Markerii biochimici ai infarctului miocardic includ:",
+            "options": [
+              "Amilaza, lipaza și fosfataza alcalină",
+              "Creatinkinaza, LDH, troponina și mioglobina",
+              "ALAT, ASAT și γ-GT",
+              "Albumina, PCR și fibrinogenul"
+            ],
+            "answer": 1,
+            "difficulty": "easy",
+            "hint": "IMA eliberează enzimele și proteinele cardiace specific.",
+            "explanation": "Markeri IMA: mioglobina (precoce, 2-4h), CK-MB (4-8h, specific cardiac), troponinele I și T (4-8h, rămân crescute 14 zile, gold standard), LDH-1 (tardiv, 8-14h)."
+          },
+          {
+            "id": "q74",
+            "question": "Enzimele din creatin kinaza (CK) active în diagnosticul patologiei musculare includ cea crescută la:",
+            "options": [
+              "Traumatisme musculare, efort fizic intens, miopatii și hipoxie musculară",
+              "Afecțiunile renale și tulburările hepatice",
+              "Pancreatite și ulcer peptic",
+              "Afecțiunile tiroidiene și tulburările suprarenale"
+            ],
+            "answer": 0,
+            "difficulty": "medium",
+            "hint": "CK total crește în orice lezare musculară.",
+            "explanation": "CK crește în: traumatisme musculare, efort fizic intens (rhabdomioliză), miopatii (distrofii musculare), hipoxie musculară, infarct miocardic (CK-MB). Izofoma CK-MM domină în mușchi."
+          },
+          {
+            "id": "q75",
+            "question": "Cauza hipoproteinemiei absolute este:",
+            "options": [
+              "Aport crescut de proteine alimentare",
+              "Deshidratarea și insuficiența cardiacă",
+              "Sindroamele de maldigestie și malabsorbție",
+              "Sindromul metabolic"
+            ],
+            "answer": 2,
+            "difficulty": "medium",
+            "hint": "Absolut = proteinele chiar scad, nu apa crește.",
+            "explanation": "Hipoproteinemia absolută (reală): sindroame de maldigestie/malabsorbție (aport/absorbție insuficientă de aminoacizi), insuficiență hepatică severă (sinteză redusă), sindrom nefrotic (pierdere urinară)."
+          }
+        ]
+      },
+      {
+        "id": "dificile",
+        "theme": "Întrebări Dificile",
+        "icon": "🧨",
+        "color": "#c0392b",
+        "questions": [
+          {
+            "id": "qd1",
+            "question": "Care proteină fixatoare de calciu conține γ-carboxiglutamat și este sintetizată de osteoblaste?",
+            "options": [
+              "Proteina C reactivă",
+              "Osteocalcina (proteina Gla osoasă)",
+              "Haptoglobina",
+              "α1-antitripsina"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Gla = γ-carboxiglutamat, necesită vitamina K.",
+            "explanation": "Osteocalcina (BGP = Bone Gla Protein) este sintetizată de osteoblaste, conține γ-carboxiglutamat (vitamina K-dependent). Este marker de formare osoasă și regulator al metabolismului glucidic."
+          },
+          {
+            "id": "qd2",
+            "question": "O femeie de 63 ani cu fractură vertebrală după accident minor, 20 ani de menopauză post-histerectomie, investigații serice normale. Diagnosticul prezumtiv este:",
+            "options": [
+              "Osteomalacie",
+              "Hiperparatiroidism primar",
+              "Osteoporoză",
+              "Metastaze osoase"
+            ],
+            "answer": 2,
+            "difficulty": "hard",
+            "hint": "Fractura la traumatism minor + menopauză precoce + ser normal = os fragil fără modificări biochimice.",
+            "explanation": "Osteoporoza: fracturi la traumatisme minime, risc crescut la menopauza precoce (deficit estrogenic), investigații serice normale (Ca, PO4, FA normale). Diagnosticul se confirmă prin densitometrie osoasă (DXA)."
+          },
+          {
+            "id": "qd3",
+            "question": "Ce se produce când trombina se leagă de trombomodulina?",
+            "options": [
+              "Activarea fibrinogenului în fibrină",
+              "Inhibarea proteinei C și accelerarea coagulării",
+              "Activarea proteinei C → sistem anticoagulant",
+              "Activarea factorului XII și a căii intrinseci"
+            ],
+            "answer": 2,
+            "difficulty": "hard",
+            "hint": "Trombina + trombomodulina = switch anticoagulant.",
+            "explanation": "Complexul trombina-trombomodulina activează Proteina C → Proteina C activată (cu Proteina S ca cofactor) inactivează F.Va și F.VIIIa. Mecanism anticoagulant major al endoteliului."
+          },
+          {
+            "id": "qd4",
+            "question": "Care anticoagulant NU este sintetizat de ficat?",
+            "options": [
+              "Proteina C",
+              "Proteina S",
+              "Antitrombina III",
+              "Cofactorul II al heparinei"
+            ],
+            "answer": 3,
+            "difficulty": "hard",
+            "hint": "Cofactorul II al heparinei are o altă origine decât ficatul.",
+            "explanation": "Cofactorul II al heparinei (HCII) este un inhibitor al trombinei, produs extraheaptic (în special endotelial), spre deosebire de Proteina C, S și ATIII care sunt sintetizate hepatic."
+          },
+          {
+            "id": "qd5",
+            "question": "Mecanismul prin care acidoza crește Ca2+ ionizat implică:",
+            "options": [
+              "Activarea osteoclastelor și demineralizarea osoasă acută",
+              "Competiția H+ cu Ca2+ pentru situsurile de legare pe albumine",
+              "Inhibarea parathormonului și activarea calcitoninei",
+              "Creșterea calcitriolului și absorbției intestinale de Ca"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Albumina leagă atât H+ cât și Ca2+.",
+            "explanation": "Acidoza → H+ crescut → competiție cu Ca2+ pentru situsurile acide ale albuminelor → Ca2+ mai puțin legat → fracția ionizată (activă biologic) crește. Alcaloza are efectul invers (tetanie!)."
+          },
+          {
+            "id": "qd6",
+            "question": "De ce deficitul de α1-antitripsină cauzează emfizem pulmonar?",
+            "options": [
+              "α1-antitripsina inhibă surfactantul alveolar, iar deficitul său îl protejează",
+              "Deficitul permite activarea necontrolată a elastazei neutrofilice → distrugerea pereților alveolari",
+              "α1-antitripsina produce colagen pulmonar, deficitul cauzând fibroză",
+              "Deficitul activează mastocitele și produce bronhospasm cronic"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Emfizemul = distrugerea alveolelor = elastaza necontrolată.",
+            "explanation": "α1-antitripsina inhibă elastaza neutrofilică. Deficitul → elastaza distruge necontrolat elastina și colagenul pereților alveolari → emfizem panacinar. Fumatul agravează (oxidează α1-AT)."
+          },
+          {
+            "id": "qd7",
+            "question": "De ce vWF scăzut poate determina scăderea factorului VIII?",
+            "options": [
+              "vWF activează F.VIII prin clivare proteolitică",
+              "vWF transportă și protejează F.VIII de degradare; absent vWF, F.VIII se degradează rapid",
+              "vWF sintetizează F.VIII în celulele endoteliale",
+              "vWF inhibă inhibitorii F.VIII (anticorpi anti-F.VIII)"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "vWF = carrier-ul F.VIII în circulație.",
+            "explanation": "vWF transportă F.VIII în complex (non-covalent) și îl protejează de proteoliză. Absența vWF → F.VIII se degradează rapid → scade F.VIII (ca în hemofilia A). Boala von Willebrand severă = hemofilia A fenotipică."
+          },
+          {
+            "id": "qd8",
+            "question": "Care este explicația biochimică a creșterii lacunei anionice în cetoacidoza diabetică?",
+            "options": [
+              "Creșterea clorului plasmatic și scăderea sodiului",
+              "Acumularea anionilor β-hidroxibutirat și acetoacetat care nu se măsoară în electroliți rutinieri",
+              "Scăderea bicarbonatului și creșterea fosfaților anorganici",
+              "Creșterea lactatulul și scăderea albuminelor"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Lacuna anionică = Na - (Cl + HCO3). Anionii cetonici nu sunt incluși.",
+            "explanation": "Lacuna anionică = Na+ - (Cl- + HCO3-). Normal: 8-12 mEq/l. În DKA, β-hidroxibutiratul și acetoacetatul (anioni nemăsurați) se acumulează → HCO3- scade (neutralizat), dar Cl- rămâne normal → lacuna anionică crește (>12 mEq/l)."
+          },
+          {
+            "id": "qd9",
+            "question": "De ce trombocitele nu pot reface COX-1 după tratamentul cu aspirină?",
+            "options": [
+              "Aspirina distruge ireversibil membrana trombocitară",
+              "Trombocitele sunt fragmente celulare anucleate, incapabile să sintetizeze proteine noi",
+              "Aspirina inhibă ribozomii trombocitari specifici",
+              "Trombocitele nu conțin RNAt necesar pentru sinteza COX"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Trombocitele = fragmente de megacariocit, fără nucleu.",
+            "explanation": "Trombocitele sunt fragmente anucleate ale megacariocitelor → nu au ADN sau ARN → nu pot sintetiza proteine noi. Aspirina acetilează ireversibil COX-1 → efect durează toată viața trombocitei (7-10 zile), până când sunt înlocuite."
+          },
+          {
+            "id": "qd10",
+            "question": "De ce în boala Wilson ceruloplasmina scade deși cuprul total seric poate fi normal/crescut?",
+            "options": [
+              "Cuprul inhibă sinteza ceruloplasminei în boala Wilson",
+              "Deficitul ATP7B împiedică incorporarea Cu în ceruloplasmină → apoceruloplasmina se degradează rapid → ceruloplasmina scade; cuprul liber (non-ceruloplasminic) crește și se depune în organe",
+              "Ceruloplasminei îi lipsesc precursorii în boala Wilson",
+              "Cuprul se pierde excesiv urinar în boala Wilson, ceruloplasmina rămânând fără substrat"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "ATP7B = transportor cuprului în aparatul Golgi pentru incorporare în ceruloplasmină.",
+            "explanation": "Boala Wilson: mutația ATP7B → Cu nu poate fi încorporat în ceruloplasmina → se formează apoceruloplasmina (instabilă, se degradează) → ceruloplasmina scade. Cuprul liber (toxicul) crește și se depune în ficat, creier, cornee (inel K-F), rinichi."
+          },
+          {
+            "id": "qd11",
+            "question": "Care este mecanismul prin care DZ tip 1 duce la cetonemie (nu DZ tip 2)?",
+            "options": [
+              "În DZ tip 1 există insulinorezistență care activează lipoliza",
+              "Deficitul absolut de insulină în DZ tip 1 → lipoliză necontrolată → AGL → β-oxidare → acetil-CoA în exces → corpi cetonici. Insulina (prezentă în DZ tip 2) inhibă lipoliza.",
+              "În DZ tip 2 există cetone, dar sunt compensate de alcaloză",
+              "Deficitul de glucagon din DZ tip 1 activează ketogeneza hepatică"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Insulina are efect anti-lipolitc puternic. DZ tip 2 = insulina prezentă, chiar dacă ineficientă.",
+            "explanation": "DZ tip 1: insulina absentă → lipoliza adipoasă necontrolată → AGL mari → β-oxidare hepatică intensă → acetil-CoA exces (+ deficit oxaloacetat) → corpi cetonici. DZ tip 2: insulina prezentă (chiar dacă rezistentă) → lipoliza parțial inhibată → cetonemie rară."
+          },
+          {
+            "id": "qd12",
+            "question": "De ce piridinolina și dezoxipiridinolina sunt considerați cei mai specifici markeri de resorbție osoasă?",
+            "options": [
+              "Sunt sintetizate exclusiv de osteoclaste și sunt detectabile în ser",
+              "Sunt cross-link-uri ale colagenului osos matur, rezistente la metabolizare hepatică, eliminate urinar exclusiv din resorbție osoasă (nu din dieta sau alți colageni)",
+              "Cresc în orice inflamație articulară și sunt specifice artritelor",
+              "Sunt produse de osteoblaste și reflectă formarea osoasă"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "Nu se găsesc în dietă și nu vin din alte surse de colagen.",
+            "explanation": "PYD și DPD: cross-link-uri stabilizante ale fibrilelor de colagen matur (tip I), eliberate doar la resorbția osoasă de osteoclaste. Rezistente la degradare hepatică → eliminate neschimbate în urină. Nu se găsesc în dietă → specificitate înaltă pentru os."
+          },
+          {
+            "id": "qd13",
+            "question": "Care este diferența clinică esențială între produșii de degradare ai fibrinei (FDP) și D-dimeri?",
+            "options": [
+              "FDP și D-dimeri sunt identici; denumirea diferă doar în literaturi",
+              "D-dimerii sunt specifici fibrinei STABILIZATE (reticulate cu F.XIII); FDP includ și produse din fibrinogen nepolimerizat. D-dimerii > FDP în specificitate pentru TEV",
+              "FDP sunt markeri ai fibrinolizei primare, D-dimerii ai celei secundare",
+              "D-dimerii cresc doar în CID, FDP cresc în TEV"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "F.XIII reticulează fibrina. D-dimerii vin din fibrina reticulată.",
+            "explanation": "FDP = produse de degradare din fibrina și fibrinogenul (include și fibrinogenul nepolimerizat). D-dimerii = SPECIFIC din fibrina stabilizată (reticulată de F.XIIIa). D-dimerii au specificitate mai mare pentru tromboza venoasă (implică coagulare + fibrinoliză simultane)."
+          },
+          {
+            "id": "qd14",
+            "question": "De ce în hiperparatiroidismul primar există hipercalcemie și hipofosfatemie simultan?",
+            "options": [
+              "PTH inhibă osteoclastele și crește reabsorbția fosforului renal",
+              "PTH mobilizează Ca din os (hipercalcemie), crește reabsorbția renală de Ca și inhibă reabsorbția renală de PO4 (hipofosfatemie prin fosfaturie crescută)",
+              "PTH activează vitamina D care crește absorbția Ca fără efect pe PO4",
+              "Hipercalcemia suprimă PTH și aceasta cauzează hipofosfatemie prin mecanism indirect"
+            ],
+            "answer": 1,
+            "difficulty": "hard",
+            "hint": "PTH acționează diferit pe Ca și PO4 la nivel renal.",
+            "explanation": "PTH: (1) Mobilizează Ca+PO4 din os → hipercalcemie + hiperfosfatemie inițial. (2) Renal: crește reabsorbția Ca (TCD) + REDUCE reabsorbția PO4 (TCP) → fosfaturie → hipofosfatemie. Net: hipercalcemie + hipofosfatemie."
+          },
+          {
+            "id": "qd15",
+            "question": "Care afirmație explică cel mai bine de ce LDH crește tardiv în IMA comparativ cu CK?",
+            "options": [
+              "LDH este o moleculă mai mare și iese mai lent din cardiomiocite",
+              "LDH-1 (izoforma cardiacă) este intramitocondrială; CK-MB este citosolică și iese rapid. LDH-1 iese la necroza completă.",
+              "CK are greutate moleculară mai mică și difuzează mai rapid prin membrana lezată",
+              "LDH este un tetramer mare care necesită liza completă a celulei pentru a fi eliberat; CK este monomer"
+            ],
+            "answer": 2,
+            "difficulty": "hard",
+            "hint": "Dimensiunea moleculei influențează viteza de eliberare din celule lezate.",
+            "explanation": "CK (MW ~80 kDa, dimer) iese rapid din cardiomiocite lezate → crește precoce (4-8h). LDH (MW ~140 kDa, tetramer) are o moleculă mai mare și eliberare mai lentă → crește tardiv (8-14h), dar se menține mai mult (7-15 zile). Ambele sunt citosolice."
+          }
+        ]
+      }
+    ]
+  }

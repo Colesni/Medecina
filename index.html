@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BioChemQuiz — Biochimie Clinică</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════ SCREEN: HOME -->
+  <div id="screen-home" class="screen active">
+    <header class="home-header">
+      <div class="logo-mark">Σ</div>
+      <h1 class="site-title">BioChemQuiz</h1>
+      <p class="site-sub">Biochimie Clinică · 75 întrebări grilă · 6 teme</p>
+      <div class="header-stats" id="header-stats">
+        <!-- filled by JS -->
+      </div>
+    </header>
+
+    <section class="cards-grid" id="cards-grid">
+      <!-- filled by JS -->
+    </section>
+
+    <footer class="home-footer">
+      <button class="btn-ghost" id="btn-reset-all">🗑 Resetează progresul</button>
+    </footer>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ SCREEN: QUIZ -->
+  <div id="screen-quiz" class="screen">
+    <div class="quiz-shell">
+
+      <div class="quiz-topbar">
+        <button class="btn-back" id="btn-back">← Acasă</button>
+        <div class="quiz-meta">
+          <span class="quiz-theme-label" id="quiz-theme-label"></span>
+          <span class="quiz-progress-label" id="quiz-progress-label"></span>
+        </div>
+        <div class="difficulty-badge" id="difficulty-badge"></div>
+      </div>
+
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+
+      <div class="quiz-body">
+        <p class="question-number" id="question-number"></p>
+        <h2 class="question-text" id="question-text"></h2>
+
+        <div class="hint-row">
+          <button class="btn-hint" id="btn-hint">💡 Hint</button>
+          <div class="hint-bubble" id="hint-bubble"></div>
+        </div>
+
+        <div class="options-list" id="options-list">
+          <!-- filled by JS -->
+        </div>
+
+        <div class="explanation-box" id="explanation-box" style="display:none;">
+          <span class="exp-icon">📖</span>
+          <p id="explanation-text"></p>
+        </div>
+
+        <button class="btn-next" id="btn-next" style="display:none;">Următoarea →</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ SCREEN: RESULTS -->
+  <div id="screen-results" class="screen">
+    <div class="results-shell">
+
+      <div class="results-header">
+        <div class="results-emoji" id="results-emoji"></div>
+        <h2 class="results-title">Rezultate finale</h2>
+        <p class="results-theme" id="results-theme"></p>
+      </div>
+
+      <div class="score-hero">
+        <div class="score-ring">
+          <svg viewBox="0 0 120 120" class="ring-svg">
+            <circle class="ring-bg" cx="60" cy="60" r="50"/>
+            <circle class="ring-fill" id="ring-fill" cx="60" cy="60" r="50"
+              stroke-dasharray="314" stroke-dashoffset="314"/>
+          </svg>
+          <div class="score-label">
+            <span class="score-pct" id="score-pct">0%</span>
+            <span class="score-raw" id="score-raw"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="diff-breakdown">
+        <div class="diff-item easy">
+          <span class="diff-icon">🟢</span>
+          <span class="diff-name">Ușoare</span>
+          <div class="diff-bar-wrap"><div class="diff-bar" id="bar-easy"></div></div>
+          <span class="diff-pct" id="pct-easy">—</span>
+        </div>
+        <div class="diff-item medium">
+          <span class="diff-icon">🟡</span>
+          <span class="diff-name">Medii</span>
+          <div class="diff-bar-wrap"><div class="diff-bar" id="bar-medium"></div></div>
+          <span class="diff-pct" id="pct-medium">—</span>
+        </div>
+        <div class="diff-item hard">
+          <span class="diff-icon">🔴</span>
+          <span class="diff-name">Dificile</span>
+          <div class="diff-bar-wrap"><div class="diff-bar" id="bar-hard"></div></div>
+          <span class="diff-pct" id="pct-hard">—</span>
+        </div>
+      </div>
+
+      <div class="answer-summary" id="answer-summary">
+        <!-- filled by JS -->
+      </div>
+
+      <div class="results-actions">
+        <button class="btn-primary" id="btn-retry">🔄 Încearcă din nou</button>
+        <button class="btn-secondary" id="btn-home">🏠 Acasă</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
